@@ -1,0 +1,67 @@
+div{
+  width:250px;
+  height: 250px;
+  background-color: orange;
+  border-radius:50%;
+  position: relative;
+  top:100px;
+  left:100px;
+  animation-name: cambio-color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  }
+@keyframes cambio-color{
+  0%{
+    background-color: orange;
+  }
+  100%{
+    background-color: pink;
+    top: 500px;
+    left: 600px;
+  }
+}
+.cuadrado{
+  width: 250px;
+  Height: 250px;
+  background-color: blue;
+  border-radius: 15%;
+  Position: relative;
+  top: 100px;
+  left: 100px;
+  animation-name: cambio-color-cuadrado;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambio-color-cuadrado{
+  0%{
+    background-color: blue;
+  }
+  100%{
+    background-color: green;
+    top: 0px;
+    left: 600px;
+  }
+}
+.circulo2{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  animation-name: circulox;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes circulox{
+  0%{
+    background-color: red;
+  }
+  100%{
+    background-color: black;
+    top: -500px;
+    left: 600px;
+  }
+}
